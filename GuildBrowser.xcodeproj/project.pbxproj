@@ -12,6 +12,9 @@
 		37625361164133FC00C13D83 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
 		37625362164133FC00C13D83 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
 		37625363164133FC00C13D83 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		376253681641383000C13D83 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 376253661641383000C13D83 /* character.json */; };
+		376253691641383000C13D83 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 376253671641383000C13D83 /* guild.json */; };
+		3762536C16413AB900C13D83 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3762536B16413AB900C13D83 /* CharacterTests.m */; };
 		37CB1BA71641282500693FA6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC5D15E9872E00B3713E /* SenTestingKit.framework */; };
 		37CB1BA81641282500693FA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		37CB1BA91641282500693FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
@@ -91,6 +94,10 @@
 /* Begin PBXFileReference section */
 		3762535C16412F8100C13D83 /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
 		3762535D16412F8100C13D83 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
+		376253661641383000C13D83 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
+		376253671641383000C13D83 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
+		3762536A16413AB900C13D83 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
+		3762536B16413AB900C13D83 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
 		37CB1BA61641282500693FA6 /* GuidBrowserLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuidBrowserLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CB1BAC1641282500693FA6 /* GuidBrowserLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuidBrowserLogicTests-Info.plist"; sourceTree = "<group>"; };
 		37CB1BAE1641282500693FA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -217,6 +224,10 @@
 				37CB1BAB1641282500693FA6 /* Supporting Files */,
 				3762535C16412F8100C13D83 /* WowUtilsTests.h */,
 				3762535D16412F8100C13D83 /* WowUtilsTests.m */,
+				376253661641383000C13D83 /* character.json */,
+				376253671641383000C13D83 /* guild.json */,
+				3762536A16413AB900C13D83 /* CharacterTests.h */,
+				3762536B16413AB900C13D83 /* CharacterTests.m */,
 			);
 			path = GuidBrowserLogicTests;
 			sourceTree = "<group>";
@@ -507,6 +518,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CB1BAF1641282500693FA6 /* InfoPlist.strings in Resources */,
+				376253681641383000C13D83 /* character.json in Resources */,
+				376253691641383000C13D83 /* guild.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +601,7 @@
 				37625362164133FC00C13D83 /* Item.m in Sources */,
 				37625363164133FC00C13D83 /* WoWUtils.m in Sources */,
 				3762535E16412F8100C13D83 /* WowUtilsTests.m in Sources */,
+				3762536C16413AB900C13D83 /* CharacterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
