@@ -218,6 +218,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		375A03D0164171BD00ABBCC7 /* test-reports */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "test-reports";
+			sourceTree = "<group>";
+		};
 		37CB1BAA1641282500693FA6 /* GuidBrowserLogicTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +252,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				375A03D0164171BD00ABBCC7 /* test-reports */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
