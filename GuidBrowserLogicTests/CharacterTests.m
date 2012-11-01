@@ -51,7 +51,7 @@
 {
     Character *_testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
     STAssertEqualObjects(_testGuy.thumbnail, @"borean-tundra/171/40508075-avatar.jpg", @"thumbnail url is wrong");
-    STAssertEqualObjects(_testGuy.name, @"aaaHagrel", @"name is wrong");
+    STAssertEqualObjects(_testGuy.name, @"Hagrel", @"name is wrong");
     STAssertEqualObjects(_testGuy.battleGroup, @"Emberstorm", @"battlegroup is wrong");
     STAssertEqualObjects(_testGuy.realm, @"Borean Tundra", @"realm is wrong");
     STAssertEqualObjects(_testGuy.achievementPoints, @3130, @"achievement points is wrong");
