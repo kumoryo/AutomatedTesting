@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		375AA1ED16425D0A00FFEE62 /* LeeDistribution.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 375AA1EC16425D0A00FFEE62 /* LeeDistribution.mobileprovision */; };
-		375AA1EE16425D0A00FFEE62 /* LeeDistribution.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 375AA1EC16425D0A00FFEE62 /* LeeDistribution.mobileprovision */; };
-		375AA1EF16425D0A00FFEE62 /* LeeDistribution.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 375AA1EC16425D0A00FFEE62 /* LeeDistribution.mobileprovision */; };
+		375AA20C1642889A00FFEE62 /* LeeAdHoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 375AA20B1642889A00FFEE62 /* LeeAdHoc.mobileprovision */; };
+		375AA20D1642889A00FFEE62 /* LeeAdHoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 375AA20B1642889A00FFEE62 /* LeeAdHoc.mobileprovision */; };
+		375AA20E1642889A00FFEE62 /* LeeAdHoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 375AA20B1642889A00FFEE62 /* LeeAdHoc.mobileprovision */; };
 		3762535E16412F8100C13D83 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3762535D16412F8100C13D83 /* WowUtilsTests.m */; };
 		37625360164133FC00C13D83 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
 		37625361164133FC00C13D83 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
@@ -95,7 +95,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		375AA1EC16425D0A00FFEE62 /* LeeDistribution.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = LeeDistribution.mobileprovision; sourceTree = "<group>"; };
+		375AA20B1642889A00FFEE62 /* LeeAdHoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = LeeAdHoc.mobileprovision; sourceTree = "<group>"; };
 		3762535C16412F8100C13D83 /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
 		3762535D16412F8100C13D83 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
 		376253661641383000C13D83 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 		37CB1BAB1641282500693FA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				375AA1EC16425D0A00FFEE62 /* LeeDistribution.mobileprovision */,
+				375AA20B1642889A00FFEE62 /* LeeAdHoc.mobileprovision */,
 				37CB1BAC1641282500693FA6 /* GuidBrowserLogicTests-Info.plist */,
 				37CB1BAD1641282500693FA6 /* InfoPlist.strings */,
 				37CB1BB31641282500693FA6 /* GuidBrowserLogicTests-Prefix.pch */,
@@ -533,7 +533,7 @@
 				37CB1BAF1641282500693FA6 /* InfoPlist.strings in Resources */,
 				376253681641383000C13D83 /* character.json in Resources */,
 				376253691641383000C13D83 /* guild.json in Resources */,
-				375AA1EF16425D0A00FFEE62 /* LeeDistribution.mobileprovision in Resources */,
+				375AA20E1642889A00FFEE62 /* LeeAdHoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +563,7 @@
 				CB9FDD1315E9B31400B3713E /* profile_shield@2x.png in Resources */,
 				CB9FDD1415E9B31400B3713E /* toolbar.png in Resources */,
 				CB9FDD1515E9B31400B3713E /* toolbar@2x.png in Resources */,
-				375AA1ED16425D0A00FFEE62 /* LeeDistribution.mobileprovision in Resources */,
+				375AA20C1642889A00FFEE62 /* LeeAdHoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,7 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9FDC6815E9872E00B3713E /* InfoPlist.strings in Resources */,
-				375AA1EE16425D0A00FFEE62 /* LeeDistribution.mobileprovision in Resources */,
+				375AA20D1642889A00FFEE62 /* LeeAdHoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
