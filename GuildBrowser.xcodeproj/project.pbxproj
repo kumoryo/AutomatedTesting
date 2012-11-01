@@ -787,10 +787,14 @@
 		CB9FDC6F15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yunlong Li (97TE3ZATPJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yunlong Li (97TE3ZATPJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3090998F-8A8F-421E-8FDD-99C3D8C07299";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3090998F-8A8F-421E-8FDD-99C3D8C07299";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -798,10 +802,14 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yunlong Li";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yunlong Li";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "12C1EC6B-4313-4276-AAD1-7BF1D38F8343";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "12C1EC6B-4313-4276-AAD1-7BF1D38F8343";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
